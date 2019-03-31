@@ -1,0 +1,26 @@
+{
+  "name": "react-intl-inject",
+  "version": "0.0.0",
+  "description": "react-intl helper, can translate props easily",
+  "main": "react-intl-inject.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fibo/react-intl-inject.git"
+  },
+  "keywords": [
+    "react",
+    "react-intl"
+  ],
+  "peerDependencies": {
+    "react-intl": "2.x"
+  },
+  "author": "Gianluca Casati (http://g14n.info)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fibo/react-intl-inject/issues"
+  },
+  "homepage": "http://g14n.info/react-intl-inject"
+}
