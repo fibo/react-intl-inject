@@ -4,6 +4,7 @@
   "description": "react-intl helper, can translate props easily",
   "main": "react-intl-inject.js",
   "scripts": {
+    "postversion": "git push origin v${npm_package_version}; npm publish; git push origin master",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
