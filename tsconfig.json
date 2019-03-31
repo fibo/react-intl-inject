@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "charset": "utf8",
+    "lib": [
+      "es2015"
+    ],
+    "module": "commonjs",
+    "noImplicitUseStrict": true,
+    "outDir": ".",
+    "removeComments": false,
+    "sourceMap": false,
+    "strictNullChecks": true,
+    "target": "es5"
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "files": [
+    "index.ts"
+  ]
+}

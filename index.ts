@@ -1,6 +1,8 @@
+// http://g14n.info/react-intl-inject
+// License: MIT
 import { injectIntl } from 'react-intl'
 
-export default injectIntl(({ children, ...props }) => {
+export default function reactIntlInject ({ children, ...props }) {
   if (typeof children === 'function') {
     return (
       children(props)
@@ -8,4 +10,4 @@ export default injectIntl(({ children, ...props }) => {
   } else {
     return null
   }
-})
+}
