@@ -1,6 +1,6 @@
 {
   "name": "react-intl-inject",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "react-intl helper, can translate props easily",
   "main": "react-intl-inject.js",
   "scripts": {
