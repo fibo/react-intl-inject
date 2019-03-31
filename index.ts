@@ -2,7 +2,7 @@
 // License: MIT
 import { injectIntl } from 'react-intl'
 
-export default function reactIntlInject ({ children, ...props }) {
+function reactIntlInject ({ children, ...props }) {
   if (typeof children === 'function') {
     return (
       children(props)
@@ -11,3 +11,5 @@ export default function reactIntlInject ({ children, ...props }) {
     return null
   }
 }
+
+export default injectIntl(reactIntlInject)

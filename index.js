@@ -8,6 +8,9 @@ var __rest = (this && this.__rest) || function (s, e) {
     return t;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+// http://g14n.info/react-intl-inject
+// License: MIT
+var react_intl_1 = require("react-intl");
 function reactIntlInject(_a) {
     var children = _a.children, props = __rest(_a, ["children"]);
     if (typeof children === 'function') {
@@ -17,4 +20,4 @@ function reactIntlInject(_a) {
         return null;
     }
 }
-exports.default = reactIntlInject;
+exports.default = react_intl_1.injectIntl(reactIntlInject);
